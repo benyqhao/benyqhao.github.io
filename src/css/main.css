@@ -37,13 +37,20 @@ p {
     font-size: smaller;
 }
 
-#header img {
-    height: 32px;
-    width: 32px;
+.home-icon {
+    mask: url(../img/favicon.svg);
 }
 
-#header img:hover{
-    content: url('../img/favicon-hover.png');
+.home {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    mask-size: cover;
+    background: #1ecd99;
+}
+
+.home-icon:hover {
+    background: #e75b64;
 }
 
 .avatar {
@@ -57,7 +64,7 @@ p {
     color:#217ee7;
 }
 
-.icons {
+.socials {
     list-style-type: none;
     font-size: medium;
     padding: 0;
@@ -69,19 +76,19 @@ p {
     margin: 0px auto;
 }
 
-.icons li {
+.socials li {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 42px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.icons a {
+.socials a {
     color: black;
 }
 
-.icons a:hover {
+.socials a:hover {
     color: #e75b64;
 }
 
