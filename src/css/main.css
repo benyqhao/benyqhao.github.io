@@ -37,15 +37,24 @@ p {
     font-size: smaller;
 }
 
-#specialization {
-    font-weight: bold;
-    color:#217ee7;
+#header img {
+    width: 32px;
+    width: 32px;
+}
+
+#header img:hover{
+    content: url('../img/favicon-hover.png');
 }
 
 .avatar {
     border-radius: 50%;
     width: 150px;
     margin: 15px;
+}
+
+#specialization {
+    font-weight: bold;
+    color:#217ee7;
 }
 
 .icons {
