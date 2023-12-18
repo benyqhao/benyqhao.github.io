@@ -52,7 +52,7 @@ h5 {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    max-width: 160px;
+    max-width: 140px;
     margin: 1em auto;
 }
 
@@ -72,10 +72,10 @@ h5 {
 #btn-tableau img {
     width:15px;
     height:15px;
-    padding:7px 0px 0px 0px;
+    margin:7px 0px 0px 0px;
 }
 
-#btn-tableau:hover img {
+#btn-tableau img:hover {
     content: url('../img/btn-tableau-hover.png');
   }
 
