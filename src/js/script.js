@@ -1,4 +1,4 @@
-const text = ["information management", "data warehousing", "payroll remediation", "data transformation", "technical writing", "data governance", "visualization and analytics", "data migration"];
+const text = ["information architecture", "data warehousing", "payroll remediation", "data transformation", "technical writing", "data governance", "information management", "visualization and analytics", "data migration"];
 let counter = 0;
 
 setInterval(change, 4000);
